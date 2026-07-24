@@ -2333,11 +2333,11 @@ class _AboutState extends State<_About> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Copyright © ${DateTime.now().toString().substring(0, 4)} Purslane Ltd.\n$license',
+                            '邝小杭 定制 · 版权所有\n$license',
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(
-                            translate('Slogan_tip'),
+                            '私人定制版本 · 请勿商用',
                             style: TextStyle(
                                 fontWeight: FontWeight.w800,
                                 color: Colors.white),
